@@ -1,0 +1,88 @@
+   @charset "utf-8";
+	/* CSS Document */
+
+	p {
+		color: beige;
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20px;
+		line-height: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+}
+	h1 {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 30px;
+		color: rgba( 51, 51, 102);
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+	}
+	 h2 {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 30px;
+		color: rgba( 51, 51, 102);
+		margin-left: auto;
+		margin-right: auto;
+		width: 280px;
+	}
+	.naslov_4 {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: rgba(255, 255, 153);
+		margin-left: auto;
+		margin-right: auto;
+		width: 250px;
+	}
+	.pozadina {
+		background-image: url("slike1/slika7.jpg")
+	}
+	.drugapozadina{
+		background-color: rgba(153, 153, 153);
+	}
+	img{
+		display: inline;
+		height: 300px;
+		margin-left: 300px;
+		margin-right: -300px;
+}
+	video {
+		margin-left: 300px;
+		margin-right: -300px;
+	}
+a:link {
+		color: black;
+		padding: 5px;
+		line-height: 100px;
+		border: 1px solid #000000;
+	}
+	a:hover{
+		background-color: darkgray;
+	}
+	ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 450px;
+			} 
+	li {	display:inline;
+			background-color:rgba(102, 102, 204);
+			padding:20px;
+			border: 2px solid rgba( 51, 51, 102);
+		}
+	li:active {background-color: rgba(255, 255, 102);}
+		
+	li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}

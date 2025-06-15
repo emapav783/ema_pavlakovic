@@ -1,0 +1,123 @@
+	@charset "utf-8";
+	/* CSS Document */
+
+	p {
+		color: beige;
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20px;
+		line-height: 18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+}
+	.tekst {
+		color: beige;
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 20px;
+		line-height: 18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+}
+	h1 {
+		font-family: "EmaPavlakovic";
+		src=url("slike1/EmaPavlakovic.ttf")
+		font-weight: 300;
+		font-style: normal;
+		font-size: 40px;
+		color: rgba(255, 255, 153);
+		margin-left: auto;
+		margin-right: auto;
+		width: 240px;
+	}
+	h2 {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 30px;
+		color: rgba(255, 255, 153);
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+	}
+	.naslov_1 {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: rgba(255, 255, 153);
+		margin-left: auto;
+		margin-right: auto;
+		width: 425px;
+	}
+	.naslov_2 {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: rgba(255, 255, 153);
+		margin-left: auto;
+		margin-right: auto;
+		width: 190px;
+	}
+	.naslov_5 {
+		font-family: "PT Serif", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 30px;
+		color: rgba(255, 255, 153);
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+	}
+	.pozadina {
+		background-image: url("slike1/slika7.jpg")
+	}
+	.drugapozadina{
+		background-color: rgba(153, 153, 102);
+	}
+	a:link {
+		color: black;
+		padding: 5px;
+		line-height: 100px;
+		border: 1px solid #000000;
+	}
+	a:hover{
+		background-color: darkgray;
+	}
+	ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 450px;
+			} 
+	li {	display:inline;
+			background-color:LightCoral;
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+	li:active {background-color:IndianRed;}
+		
+	li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+	
+	img{
+		height: 300px;
+		margin-left: 380px;
+		margin-right: -380px;
+}
+	video {
+		margin-left: 550px;
+		margin-right: -550px;
+	}
+	.video_2 {
+		margin-left:450px;
+		margin-right: -450px;
+	}
